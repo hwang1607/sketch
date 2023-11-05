@@ -22,21 +22,14 @@ section{
 button{
   
   font-size: large;
-  color: rgba(255, 255, 255, 0.616);
-  margin-top: 17%;
-  margin-right: 10%;
-  padding: 15%;
-  margin-bottom: 17%;
-  background-color: #88304e;
-  border-style: none;
-  border-radius: 5px;
+
   transition: 200ms;
 }
 button:hover{
-  background-color: #e23e57a8;
+  background-color: #c7354ba8;
 }
 button:active {
-  background-color: #e23e57e5;
+  background-color: #c64e60fa;
 }
 .container{
   background-color: rgba(255, 255, 246);
@@ -48,61 +41,6 @@ button:active {
 
 }
 .divs{
-border: rgba(92, 91, 91, 0.137) 1px solid;
+border: rgba(210, 33, 33, 0.323) 1px solid;
 }
 
-@media (max-width:900px){
-  .container{
-    height: 400px;
-    width: 400px;
-  }
-  section {
-    height: 400px;
-    width: 90px;
-   
-
-  }
-  button{
-    font-size: small;
-    margin: 5px;
-    padding: 10px;
-
-  }
-}
-@media (max-width:400px) {
-  body {
-    height: 95vh;
-    display: grid;
-    grid-template-rows: 200px 1fr;
-    grid-template-areas: 'buttons'
-                          'container';
-   align-items: center;
-   justify-content: center;
-  }
-  .container {
-    height: 300px;
-    width: 300px;
-  }
-
-  section {
-    grid-area: buttons;
-    width: 300px;
-    height: 200px;
-    display: grid;
-    grid-template-rows: repeat(auto-fill , 1fr);
-    align-items: center;
-    justify-content: center;
-   
-    
-  }
-
-  button {
-    width: 200px;
-    font-size: small;
-    padding: 10px;
-    margin-top: 10px;
-    margin-right: 0;
-    padding: 10px;
-    margin-bottom: 0;
-  }
-}
